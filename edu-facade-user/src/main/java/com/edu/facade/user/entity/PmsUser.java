@@ -2,7 +2,8 @@ package com.edu.facade.user.entity;
 
 import java.util.Date;
 
-import com.edu.facade.user.common.entity.BaseEntity;
+import com.edu.common.entity.BaseEntity;
+
 
 
 /**

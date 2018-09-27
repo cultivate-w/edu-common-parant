@@ -5,8 +5,8 @@ package com.edu.facade.user.service;
 
 import java.util.Map;
 
-import com.edu.facade.user.common.page.PageBean;
-import com.edu.facade.user.common.page.PageParam;
+import com.edu.common.page.PageBean;
+import com.edu.common.page.PageParam;
 import com.edu.facade.user.entity.PmsUser;
 
 /**

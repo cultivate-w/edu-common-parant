@@ -7,9 +7,9 @@
             
       <dubbo:application name="gw-service-user"/>
       
-      <dubbo:registry protocol="zookeeper" address="192.168.56.25:2181" />
+      <dubbo:registry protocol="zookeeper" address="192.168.56.25" />
       
-      <dubbo:protocol name="dubbo" port="20880"></dubbo:protocol>
+      <dubbo:protocol name="dubbo" port="20880" />
       
       <dubbo:service interface="com.edu.facade.user.service.PmsUserFacade" ref="pmsUserFacade" />
 

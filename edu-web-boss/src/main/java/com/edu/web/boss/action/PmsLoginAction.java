@@ -5,14 +5,16 @@ import java.util.Date;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
 
+import com.edu.common.web.constant.SessionConstant;
 import com.edu.facade.user.entity.PmsUser;
 import com.edu.facade.user.enums.UserStatusEnum;
 import com.edu.facade.user.enums.UserTypeEnum;
 import com.edu.facade.user.service.PmsUserFacade;
 import com.edu.web.boss.base.BaseAction;
-import com.edu.web.common.constant.SessionConstant;
 
+@Scope("prototype")
 public class PmsLoginAction extends BaseAction {
 
 	/**

@@ -1,8 +1,8 @@
 package com.edu.web.boss.base;
 
+import com.edu.common.web.constant.SessionConstant;
+import com.edu.common.web.struts.Struts2ActionSupport;
 import com.edu.facade.user.entity.PmsUser;
-import com.edu.web.common.constant.SessionConstant;
-import com.edu.web.common.struts.Struts2ActionSupport;
 
 @SuppressWarnings("serial")
 public class BaseAction extends Struts2ActionSupport implements UserLoginedAware{

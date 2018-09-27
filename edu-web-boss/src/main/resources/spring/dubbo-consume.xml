@@ -6,7 +6,7 @@
 		http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 		
 		<dubbo:application name="edu-web-boss" />
-		<dubbo:registry protocol="zookeeper" address="192.168.56.25:2181" />
+		<dubbo:registry protocol="zookeeper" address="${dubbo.registry.address}" />
 		<dubbo:reference interface="com.edu.facade.user.service.PmsUserFacade" id="pmsUserFacade" check="false"  /> 
 		
 

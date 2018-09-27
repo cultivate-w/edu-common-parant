@@ -5,8 +5,8 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.edu.facade.user.common.page.PageBean;
-import com.edu.facade.user.common.page.PageParam;
+import com.edu.common.page.PageBean;
+import com.edu.common.page.PageParam;
 import com.edu.facade.user.entity.PmsUser;
 import com.edu.facade.user.service.PmsUserFacade;
 import com.edu.service.user.biz.PmsUserBiz;
